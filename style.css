@@ -1,0 +1,230 @@
+/* ////// ===== >>>> font import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text-center {
+  text-align: center;
+}
+.main__container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: sans-serif; */
+}
+/* //// ==== >>>>> width  */
+.w20 {
+  width: 20%;
+}
+.w23 {
+  width: 23%;
+}
+
+.w25 {
+  width: 25%;
+}
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w475 {
+  width: 47.5%;
+}
+.w50 {
+  width: 50%;
+}
+.w55 {
+  width: 55%;
+}
+.w60 {
+  width: 60%;
+}
+.w65 {
+  width: 65%;
+}
+
+/* ///// ===== >>> header */
+.header {
+  background-color: #22c3a3;
+  padding: 20px 20px;
+}
+.header__logo {
+}
+.header__logo__text {
+  font-size: 20px;
+  color: #fff;
+}
+.header__menu {
+  text-align: right;
+}
+.menu__list {
+  list-style: none;
+}
+.menu__item {
+  display: inline-block;
+  padding: 0 7px;
+}
+.menu__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #d9e9e6;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* ///// banner section css */
+.banner__section {
+  background-image: url(https://i.ibb.co/RGXQcYW/header-bg01.jpg);
+  padding: 130px 0;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+.banner__heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.banner__sub {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.banner__btn {
+  border: 1px solid #76dbc6;
+  background-color: inherit;
+  display: inline-block;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+}
+
+/* //// ===== >>> service css */
+.service__section {
+  padding: 150px 0;
+}
+.service__content {
+  padding: 0px 0;
+}
+.service__heading {
+  margin-bottom: 15px;
+}
+.service__sub {
+  color: #777777;
+  font-weight: 400;
+}
+.service__card {
+  margin-top: 100px;
+}
+.card__item {
+  text-align: center;
+  padding: 0 17px;
+}
+.card__item:not(:last-child) {
+  margin-right: 2.5%;
+}
+.card__icon {
+  color: #0dbf9b;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.card__heading {
+  color: #474747;
+  margin: 10px 0;
+}
+.card__text {
+  color: #707070;
+}
+
+/* ///// ===== >>>>> about section CSS */
+.about__section {
+  border-top: 2px solid #0dbf9b;
+  padding: 100px 0;
+}
+.about__content {
+  margin-top: 100px;
+}
+.about__left__img {
+}
+.about__img {
+  width: 100%;
+}
+
+.about__right__content {
+}
+.content__box {
+}
+.content__box:not(:last-child) {
+  margin-bottom: 10px;
+}
+.content__heading {
+}
+.content__text {
+}
+
+/* /////===== >>>> contact section */
+.contact__section {
+  background-color: #f6f6f6;
+  padding: 70px 50px;
+}
+.contact__card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.contact__card__item {
+  padding: 0 15px;
+}
+.contact__card__icon {
+  color: #0dbf9b;
+  margin-bottom: 20px;
+}
+.contact__card__text {
+}
+
+/* ////// ===== >>> social menu */
+.social__menu {
+  background-color: #0dbf9b;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 25px;
+}
+.social__menu > i {
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* ///////// ====== footer CSS */
+.footer__section {
+  background-color: #222222;
+  padding: 10px 0;
+  text-align: center;
+  color: #3e3e3e;
+}
